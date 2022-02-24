@@ -22,7 +22,7 @@ body{
     color: rgba(250, 235, 215, 0.9)
 }
 
-a {
+.introduce a , .logo_box a{
     color: rgb(65, 125, 40);
     padding: 2%;
 
@@ -33,7 +33,9 @@ i {
     font-size: 1.5rem;
 
 }
-
+.introduce a:hover , .logo_box a:hover{
+    color: rgb(95, 105, 90);
+}
 h2{
     text-align: center;
 }
