@@ -1,9 +1,9 @@
-
-
-body{
+body {
 
     background-image: url(../images/bg-crossword.png);
-}.dropdown-menu li:hover .sub-menu {
+}
+
+.dropdown-menu li:hover .sub-menu {
     visibility: visible;
 }
 
@@ -22,7 +22,8 @@ body{
     color: rgba(250, 235, 215, 0.9)
 }
 
-.introduce a , .logo_box a{
+.introduce a,
+.logo_box a {
     color: rgb(65, 125, 40);
     padding: 2%;
 
@@ -33,12 +34,16 @@ i {
     font-size: 1.5rem;
 
 }
-.introduce a:hover , .logo_box a:hover{
+
+.introduce a:hover,
+.logo_box a:hover {
     color: rgb(95, 105, 90);
 }
-h2{
+
+.banner_text_p h2 {
     text-align: center;
 }
+
 .navbar {
     background-color: rgba(250, 235, 215, 0.9);
 
@@ -49,13 +54,13 @@ h2{
 }
 
 .banner_text_p {
-    color: rgb(248, 245, 240);
+  color: rgb(40, 60, 25);
     position: absolute;
     left: 10%;
     bottom: 30%;
     width: 30%;
     padding: 3%;
-    background-color: rgba(250, 235, 215, 0.274);
+    background-color: rgba(250, 235, 215, 0.3);
     animation: pinpon 1s linear;
 }
 
@@ -83,12 +88,13 @@ h2{
     top: 10%;
     width: 80%;
     left: 10%;
-    background-color: rgba(250, 235, 215, 0.9);
+    background-color: rgba(250, 235, 215, 0.6);
     padding: 5%;
 }
 
 .introduce_text h4,
 h6 {
+    color: rgb(40, 60, 25);
 
     text-align: center;
 }
@@ -112,6 +118,7 @@ h6 {
 .t_text {
     text-align: center;
     padding: 3% 0;
+    color: rgb(40, 60, 25);
 
 }
 
@@ -128,8 +135,10 @@ h6 {
 .p_box h5,
 h6 {
     margin-top: 1%;
-    padding: 2%;
+    padding: 5%;
     text-align: center;
+  color: rgb(40, 60, 25);
+
 
 }
 
@@ -179,6 +188,8 @@ a:hover {
 
 .g_text {
     text-align: center;
+  color: rgb(40, 60, 25);
+
 }
 
 .g_text h5 {
@@ -187,8 +198,8 @@ a:hover {
 }
 
 .g_img {
-    width: 70%;
-    transform: translate(10px, 50px) rotate(3deg)
+    width: 65%;
+    transform: translate(25%, 15%) rotate(7deg)
 }
 
 /* ////////////////////////////// */
@@ -217,28 +228,36 @@ footer {
 }
 
 .logo_box {
-    margin: auto;
-    padding: 1%;
+    margin:   auto;
+
     width: 50%;
     text-align: center;
 
 }
 
+.logo_box a {
+    text-decoration: none;
+    /* border-right:1px darkgreen  solid; */
+}
+
 .logo_icon a {
     color: rgb(255, 255, 255);
     background-color: rgb(206, 235, 160);
-
+    text-decoration: none;
     border-radius: 50%;
+   padding: 1%  3%;
 
 }
 
 .logo_icon i {
     font-size: 1rem;
+ 
 }
 
 .logo_icon {
     width: 35%;
-    margin: auto;
+    margin:2% auto;
+    
 }
 
 .gotop i {
@@ -271,15 +290,5 @@ footer {
         right: 2%
     }
 }
-@media screen and (max-width: 768px) {
 
-
-
-
-
-
-
-
-
-    
-}
+@media screen and (max-width: 768px) {}

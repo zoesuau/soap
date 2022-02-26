@@ -1,15 +1,3 @@
-
-
-$(".p_box").hover(function(){
-
-
-    $(this).find(".p_box_icon").toggle()
-  
-  
-
-}
-)
-
 $(window).scroll(function () {
     if ($(window).scrollTop() > 900) {
        
@@ -24,3 +12,15 @@ $(window).scroll(function () {
     }
     
 })
+
+$(".p_box").hover(function(){
+
+
+    $(this).find(".p_box_icon").toggle()
+  
+  
+
+}
+)
+
+
